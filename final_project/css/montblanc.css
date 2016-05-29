@@ -1,15 +1,23 @@
 body {
 	background-color: black;
+	background-image: url("images/montblanc_white_cap_black.png");
+	background-repeat: #;
+	background-attachment: #;
+	background-position: #;
 }
 h1 {
-	color:rgba(255,50,255,1);
+	color:rgba(255,255,255,1);
 	font-family:arial,serif;
 	font-size:40px;
 	font-weight:bold;
 	font-style:uppercase;
 	text-align:center;
 }
-h2 {
+p {
 	color:white;
-	background:#f33b3b;
+	background:rgba(0,0,0,1);
+	text-align: center;
+}
+img {
+	
 }
