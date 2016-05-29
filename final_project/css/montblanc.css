@@ -1,9 +1,10 @@
 body {
 	background-color: black;
-	background-image: url("images/montblanc_white_cap_black.png");
-	background-repeat: #;
-	background-attachment: #;
-	background-position: #;
+	background-image: "images/montblanc_white_cap_black.png";
+	background-repeat: none;
+	background-attachment: fixed;
+	background-position: center;
+	margin: auto;
 }
 h1 {
 	color:rgba(255,255,255,1);
@@ -19,5 +20,8 @@ p {
 	text-align: center;
 }
 img {
+	position:relative;
+ 	left:30%;
+ 	
 	
 }
