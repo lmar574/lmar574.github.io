@@ -1,27 +1,100 @@
 body {
-	background-color: black;
-	background-image: "images/montblanc_white_cap_black.png";
-	background-repeat: none;
-	background-attachment: fixed;
-	background-position: center;
-	margin: auto;
+	background-color: rgba(0,0,0,1);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center top;
+	font-family: arial,serif;
 }
-h1 {
+#headmenu {
 	color:rgba(255,255,255,1);
-	font-family:arial,serif;
-	font-size:40px;
-	font-weight:bold;
+	font-size:16px;
+	font-style:normal;
+	font-weight:normal;
+	text-align:center;center;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255,255,255,.7);
+    position: fixed;
+    top: 0;
+    width: 65%;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	margin-left: 25px
+	text-decoration: none;
+}
+li a:hover {
+	background-color:black;
+	color: white;
+	width: 100%;
+}
+#title {
+	color:rgba(255,255,255,1);
+	width: 19%;
+	position: relative;
+	top: 50px;
+	left: 45%;
+	z-index:-1;
+}
+p {
+	color:rgba(255,255,255,1);
+	font-size:20px;
+	font-weight:normal;
 	font-style:uppercase;
 	text-align:center;
 }
-p {
-	color:white;
-	background:rgba(0,0,0,1);
-	text-align: center;
+div#welcome{
+	top:80px;
 }
-img {
-	position:relative;
- 	left:30%;
- 	
-	
+#slogan {
+	color:rgba(255,255,255,1);
+	font-size:25px;
+	font-style:italic;
+	font-weight:normal;
+	text-align:center;
+	position: relative;
+	top: 70px;
+}
+#message {
+	color:rgba(255,255,255,1);
+	font-size:25px;
+	font-style:italic;
+	font-weight:normal;
+	text-align:left;
+	position: relative;
+	top: 75px;
+	left: 20%;
+}
+div#introcarousel {
+	top:100px;
+	position: relative;
+	left:0%;
+	border: solid;
+	margin-bottom:130px;
+}
+#productsmenu {
+	position: relative;
+	left: 30%;
+	bottom: 0;
+}
+div#contactme {
+	background-color: white;
+	color: black;
+	display: block;
+	text-align: center;
+	width: 150px;
+	position: relative;
+	left:50%;
+	top: 0px;
+}
+div#contactme:hover {background-color: black;
+	color: white;
 }
