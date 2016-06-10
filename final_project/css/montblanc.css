@@ -92,9 +92,9 @@ header {
 	font-family:'Montserrat';
 }
 div#introcarousel {
-	top:100px;
+	top: 100px;
 	position: relative;
-	left:0%;
+	left:100%;
 	margin-bottom: .1em;
 	display: inline-block;
 }
@@ -106,10 +106,18 @@ div#introcarousel {
 #mbworld {
 
 }
+section#prodcutsmenu {
+	top: 100px;
+	position: relative;
+	left:100%;
+	margin-bottom: 1em;
+	display: block;
+}
 div#threehand {
 	margin:1em;
 	position: relative;
 	top: 6em;
+	background-color: red;
 
 }
 #watchtitle {
@@ -127,7 +135,7 @@ span {
 	font-weight: bold;
 	color: black;
 }
-section#descriptionwindow {
+div#descriptionwindow {
 	float: left;
     width: 320px;
     margin: 0;
@@ -140,7 +148,7 @@ section#descriptionwindow {
 	margin:1em 1em;
 	display: block;
 }
-div#watchwindow {
+div#imagewindow {
 	margin-left: 100px;
     padding: 0em;
     overflow: hidden;
