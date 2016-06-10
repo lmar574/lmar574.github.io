@@ -50,6 +50,15 @@ header {
 	position: relative;
 	top: 19px
 }
+div#carouselgroup {
+	display: inline-block;
+}
+div#productscarousel {
+	display: inline-block;
+}
+div#mbworldcarousel {
+	display:inline-block;
+}
 #prodcutsmenu {
 	display: block;
 	background-color: green;
@@ -58,3 +67,19 @@ header {
 	margin: 2em;
 	padding: 2em;
 }
+div#pmgroup {
+	width:20%;
+	display: inline;
+}
+#mbworld {
+	display: block;
+	background-color: purple;
+}
+#boutiquelocator {
+	display: block;
+	background-color: yellow
+}
+
+
+
+
