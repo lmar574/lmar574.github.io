@@ -77,9 +77,16 @@ div#pmgroup {
 }
 #boutiquelocator {
 	display: block;
-	background-color: yellow
+	background-color: yellow;
 }
-
+footer {
+	display: block;
+	background-color: blue;
+}
+#contactme {
+	position:relative;
+	bottom: 0;
+}
 
 
 
