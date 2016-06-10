@@ -4,7 +4,7 @@ body {
 	font-family: 'Montserrat';
 }
 nav {
-	background-color: blue
+	background-color: blue;
 	display: block;
 }
 #headmenu {
@@ -20,6 +20,7 @@ nav {
     z-index: 1;
 }
 .menuanchor {
+	font-style: none;
 	float: left;
 	display: inline;
 	color: black;
@@ -29,4 +30,31 @@ nav {
 	text-decoration: none;
 }
 .menuanchor:hover {
+	display: block;
+	background-color:black;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin-left: 30px;
+	text-decoration: none;
+}
+header {
+	display: block;
+	background-color: blue;
+	position: relative;
+	top: 39px;
+}
+#welcomecarousel {
+	display: block;
+	background-color: orange;
+	position: relative;
+	top: 19px
+}
+#prodcutsmenu {
+	display: block;
+	background-color: green;
+	position: relative;
+	top: 19px
+	margin: 2em;
+	padding: 2em;
 }
