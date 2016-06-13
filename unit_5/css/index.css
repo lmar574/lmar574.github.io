@@ -3,9 +3,14 @@ body {
 	background-color: white;
 	font-family: 'Montserrat';
 }
+div#wrapper {
+
+}
 nav {
-	background-color: blue;
+	background-color: #E8C66A;
 	display: block;
+	  border: 1px black solid;
+    padding: 20px;
 }
 #headmenu {
 	list-style-type: none;
@@ -40,18 +45,20 @@ nav {
 }
 header {
 	display: block;
-	background-color: blue;
+	background-color: #FFED74;
 	position: relative;
 	top: 39px;
+	border: 1px black solid;
+    padding: 20px;
 }
-#welcomecarousel {
+#carouselgroup {
 	display: block;
-	background-color: orange;
+	background-color: #FFE2B8;
 	position: relative;
 	top: 19px
-}
-div#carouselgroup {
-	display: inline-block;
+	margin: 1em;
+	border: 1px black solid;
+    padding: 20px;;
 }
 div#productscarousel {
 	display: inline-block;
@@ -61,11 +68,12 @@ div#mbworldcarousel {
 }
 #prodcutsmenu {
 	display: block;
-	background-color: green;
+	background-color: #FFE2B8;
 	position: relative;
 	top: 19px
 	margin: 2em;
-	padding: 2em;
+	border: 1px black solid;
+    padding: 20px;
 }
 div#pmgroup {
 	width:20%;
@@ -73,19 +81,35 @@ div#pmgroup {
 }
 #mbworld {
 	display: block;
-	background-color: purple;
+	background-color: #FFE2B8;
+	position: relative;
+	top: -17px;
+	left: -16px;
+	width: 74.5em;
+	margin: 1em;
+	border: 1px black solid;
+    padding: 20px;
 }
 #boutiquelocator {
 	display: block;
-	background-color: yellow;
+	background-color: #FFE2B8;
+	position: relative;
+	width; 
+	top: -40px;
+	border: 1px black solid;
+    padding: 20px;
 }
 footer {
 	display: block;
-	background-color: blue;
+	background-color: #FF957E;
+	position: relative;
+	top: -65px;border: 1px black solid;
+    padding: 20px;
 }
 #contactme {
 	position:relative;
-	bottom: 0;
+	background-color: black
+	color: white;
 }
 
 
