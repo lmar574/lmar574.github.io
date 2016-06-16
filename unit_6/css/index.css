@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+	background-color: white;
+	font-family: 'Montserrat';
+}
+#headmenu {
+	background-color: black;
+	list-style-type: none;
+	text-decoration: none;
+	float: left;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 60%;
+    z-index: 1;
+}
+.menuanchor {
+	font-style: none;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 14px;
+	margin-left: 30px;
+	text-decoration: none;
+}
+.menuanchor:hover {
+	background-color: white;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+#welcomehome {
+	border: 1px black solid;
+	margin-bottom: 40px;
+    padding: 1px;
+    position: relative;
+    top: 40px;
+}
+#welcomepackage {
+	border: 1px black solid;
+	padding: 20px;
+	display: inline-block;
+	position: relative;
+	left: 30%;
+	
+}
+#two_column {
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+}
+#right {
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+#prodcutsmenu {
+	display: block;
+	position: relative;
+	top: 19px
+	margin: 2em;
+	border: 1px black solid;
+    padding: 10px;
+}
+#producttitle {
+	border: 1px black solid;
+    padding: 10px;
+    margin: 2em;
+    display: block;
+    width: 12%;
+    position: relative;
+    left: 40%;
+}
+.collections {
+	border: 1px black solid;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    left: 1.5%;
+}
+#mbworld {
+	display: block;
+	border: 1px black solid;
+    padding: 20px;
+}
+#mbworldtitle {
+	border: 1px black solid;
+    padding: 10px;
+    margin: 2em;
+    display: block;
+    width: 15.5%;
+    position: relative;
+    left: 40%;
+}
+#styleguidecarousel {
+	border: 1px black solid;
+    padding: 5px;
+    display: inline-block;
+}
+#scoialmediahud {
+	border: 1px black solid;
+    padding: 5px;
+    display: inline-block;
+}
+#boutiquelocator {
+	display: block;
+	border: 1px black solid;
+    padding: 20px;
+}
+#boutiquelist {
+	border: 1px black solid;
+    padding: 5px;
+    display: inline-block;
+    list-style-type: none;
+}
+#godview {
+	border: 1px black solid;
+    padding: 5px;
+    display: inline-block;
+}
+footer {
+	display: block;
+	position: relative;
+	top: -65px;border: 1px black solid;
+    padding: 20px;
+}
+#contactme {
+	position:relative;
+	background-color: black
+	color: white;
+}
+
