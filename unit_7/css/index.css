@@ -8,78 +8,78 @@ nav {
 	list-style-type: none;
 	text-decoration: none;
 	float: left;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    display: block;
+    display: inline;
     position: fixed;
     top: 0;
-    width: 60%;
     z-index: 1;
+    width: 100%;
 }
 nav a{
 	font-style: none;
+	font-size: 16px;
 	float: left;
 	color: white;
 	text-align: center;
-	padding: 14px 14px;
-	margin-left: 30px;
+	padding: .7em;
+	margin-left: 2.8em;
 	text-decoration: none;
 }
-nav a:hover{
-	text-align: center;
-	text-decoration: 
-}
 header{
-	border: 1px black solid;
-	margin-bottom: 30px;
-    padding: 1px;
+	border: .05em black solid;
+	margin-bottom: 1.5em;
+    padding: .05em;
     position: relative;
-    top: 30px;
+    top: 2em;
 }
 header img{
-	border: 1px black solid;
-	padding: 5px;
+	border: .05em black solid;
+	padding: .25em;
 	position: relative;
 	left: 40%;
-	top: 10px;
+	top: .5em;
 	width: 25%;
 	min-width: 25%;
 }
 header h2{
-	border: 1px black solid;
-	padding: 5px;
+	border: .05em black solid;
+	padding: .25em;
 	position: relative;
 	left: 37%;
-	top: -25px;
+	top: -.25em;
 	width: 30%;
+	text-align: center;
+	font-size: 16px;
 }
 #summit {
-	background-color: white;
-	border: 1px black solid;
-	padding: 5px;
-}
-#wrapper {
+	border: .05em black solid;
+	padding: .25em;
 	margin: auto;
+	position: relative;
+	top: .25em;
 }
 #productscarousel {
 	background-color: white;
-	border: 1px black solid;
-	padding: 20px;
+	border: .05em black solid;
+	padding: .25em;
 	float: left;
+	width: 42%;
+	min-width: 350px;
 }
-#productscarousel a {
-	max-width: 550px;
-	min-width: 550px
+#productscarousel img {
+	width: 99%;
+	min-width: 350px;
 }
 #mbviewcarousel {
 	background-color: white;
-	border: 1px black solid;
-	padding: 20px;
+	border: .05em black solid;
+	padding: .25em;
 	float: right;
+	width: 42%;
+	min-width: 350px;
 }
-#mbviewcarousel a {
-	max-width: 550px;
+#mbviewcarousel img {
+	width: 99%;
+	min-width: 350px;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -92,64 +92,80 @@ header h2{
 #prodcutsmenu {
 	display: block;
 	position: relative;
-	top: 19px
+	top: 1.45em
 	margin: 2em;
-	border: 1px black solid;
-    padding: 10px;
+	border: .05em black solid;
+    padding: .5em;
 }
 #prodcutsmenu h3{
-	border: 1px black solid;
-    padding: 10px;
+	border: .05em black solid;
+    padding: .5em;
     margin: 2em;
     display: block;
     width: 12%;
     position: relative;
     left: 40%;
+    text-align: center;
+	font-size: 16px;
 }
 .collections {
-	border: 1px black solid;
-    padding: 10px;
+	border: .05em black solid;
+    padding: .5em;
     display: inline;
     position: relative;
     left: 1.5%;
+    width: 14.1%;
 }
 #watches {
-	border: 1px black solid;
+	border: .05em black solid;
 }
 #watches h3{
-	border: 1px black solid;
-	padding: 10px;
+	border: .05em black solid;
+	padding: .5em;
 	position: relative;
     left: 45%;
     display: block;
-    width: 7%;
+    width: 7.7%;
+    text-align: center;
+	font-size: 16px;
+}
+#first {
+	border: .05em black solid;
+	margin: .5em;
+    position: relative;
+    left: 35px;
+    width: 91.5%;
+    align: center;
 }
 .watchfamilies {
-	border: 1px black solid;
-	margin: 10px;
-    padding: 10px;
+	border: .05em black solid;
+	margin: 1%;
+    padding: 1%;
     display: inline;
-    position: relative;
-    left: 1.5%;
+    align: center;
+    width: 15%;
+    min-width: 150px;
 }
 #smallsecond {
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 10px;
 }
 #smallsecond h3{
-	border: 1px black solid;
-    padding: 10px;
+	border: .05em black solid;
+    padding: 1.5em;
     margin: 2em;
     display: block;
     width: 50%;
     position: relative;
     left: 20%;
+    text-align: center;
+	font-size: 16px;
 }
 span {
 	color: blue;
 }
 #smallsecond div{
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 10px;
 	display: block;
 	float: left;
@@ -157,22 +173,22 @@ span {
 	top: 60%;
 }
 #watchdescription {
-	list-style-type: none;
 	line-height: 2em
-}
-#smallsecond figure{
-
+	text-align: center;
+	font-size: 16px;
 }
 #watchimage {
+	width: 30%;
+	min-width: 500px;
 
 }
 #mbworld {
 	display: block;
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 10px;
 }
 #mbworld h3{
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 10px;
     margin: 2em;
     display: block;
@@ -181,29 +197,32 @@ span {
     left: 40%;
 }
 #styleguidecarousel {
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 5px;
     display: inline-block;
 }
+.styleguide {
+	width: 30%;
+}
 #scoialmediahud {
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 5px;
     display: inline-block;
 }
 #boutiquelocator {
 	display: block;
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 20px;
 }
 #boutiquelocator ul{
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 5px;
     display: block;
     list-style-type: none;
     float: left;
 }
 #mapofboutiques {
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 5px;
     display: block;
     float: right;
@@ -211,12 +230,12 @@ span {
     height: 700px;
 }
 #mapofboutiques div{
-	border: 1px black solid;
+	border: .05em black solid;
     padding: 5px;
     display: inline-block;
 }
 footer {
-	border: 1px black solid;
+	border: .05em black solid;
 	display: block;
     padding: 20px;
 }
