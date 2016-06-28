@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: white;
 	font-family: 'Montserrat';
@@ -133,22 +134,16 @@ header h2{
 }
 #first {
 	border: .05em black solid;
-	margin: .5em;
-    position: relative;
-    left: 3%;
-    width: 91.5%;
-    align: center;
+	margin: .5em auto;
+	/* left: 3%; */
+	width: 80.5%;
+	align: center;
 }
 .watchfamilies {
 	border: .05em black solid;
-	margin: 1%;
-    padding: 1%;
-    display: inline;
-    align: center;
-    width: 15%;
-    min-width: 150px;
-    position: relative;
-    left: .75%;
+	padding: 1%;
+	float: left;
+	width: 20%;
 }
 #smallsecond {
 	border: .05em black solid;
@@ -156,13 +151,11 @@ header h2{
 }
 #smallsecond h3{
 	border: .05em black solid;
-    padding: .5em;
-    margin: 2em;
-    display: block;
-    width: 50%;
-    position: relative;
-    left: 20%;
-    text-align: center;
+	padding: .5em;
+	margin: 2em auto;
+	display: block;
+	width: 30em;
+	text-align: center;
 	font-size: .8em;
 }
 span {
@@ -170,11 +163,9 @@ span {
 }
 #smallsecond div{
 	border: .05em black solid;
-    padding: .5em;
-	display: inline;
-	float: left;
-	position: relative;
-	top: 60%;
+	padding: .5em;
+	max-width: 17em;
+	margin: 0 auto 2em;
 }
 #watchwindow {
 
@@ -188,15 +179,14 @@ span {
 #watchimage {
 	width: 30%;
 	min-width: 200px;
-	display: inline;
-	position: relative;
-	left:20%;
-	float: right;
+	display: block;
+	margin: auto;
 }
 #mbworld {
 	display: block;
 	border: .05em black solid;
-    padding: 10px;
+	padding: 10px;
+	clear: both;
 }
 #mbworld h3{
 	border: .05em black solid;
