@@ -2,13 +2,14 @@
 body {
 	background-color: white;
 	font-family: 'Montserrat';
+	font-size: 20px;
 }
 nav {
 	background-color: black;
 	list-style-type: none;
 	text-decoration: none;
 	float: left;
-    display: inline;
+    display: block;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -16,11 +17,11 @@ nav {
 }
 nav a{
 	font-style: none;
-	font-size: 16px;
+	font-size: .8em;
 	float: left;
 	color: white;
 	text-align: center;
-	padding: .7em;
+	padding: .7em 2.4em;
 	margin-left: 2.8em;
 	text-decoration: none;
 }
@@ -35,20 +36,20 @@ header img{
 	border: .05em black solid;
 	padding: .25em;
 	position: relative;
-	left: 40%;
+	left: 41.5%;
 	top: .5em;
 	width: 25%;
-	min-width: 25%;
+	min-width: 200px;
 }
 header h2{
 	border: .05em black solid;
 	padding: .25em;
 	position: relative;
-	left: 37%;
+	left: 39%;
 	top: -.25em;
 	width: 30%;
 	text-align: center;
-	font-size: 16px;
+	font-size: .8em;
 }
 #summit {
 	border: .05em black solid;
@@ -102,19 +103,20 @@ header h2{
     padding: .5em;
     margin: 2em;
     display: block;
-    width: 12%;
+    width: 5em;
     position: relative;
-    left: 40%;
+    left: 46%;
     text-align: center;
-	font-size: 16px;
+	font-size: .8em;
 }
 .collections {
 	border: .05em black solid;
     padding: .5em;
     display: inline;
     position: relative;
-    left: 1.5%;
+    left: .5%;
     width: 14.1%;
+    min-width: 150px;
 }
 #watches {
 	border: .05em black solid;
@@ -125,15 +127,15 @@ header h2{
 	position: relative;
     left: 45%;
     display: block;
-    width: 7.7%;
+    width: 4.4em;
     text-align: center;
-	font-size: 16px;
+	font-size: .8em;
 }
 #first {
 	border: .05em black solid;
 	margin: .5em;
     position: relative;
-    left: 35px;
+    left: 3%;
     width: 91.5%;
     align: center;
 }
@@ -145,42 +147,51 @@ header h2{
     align: center;
     width: 15%;
     min-width: 150px;
+    position: relative;
+    left: .75%;
 }
 #smallsecond {
 	border: .05em black solid;
-    padding: 10px;
+    padding: .5em;
 }
 #smallsecond h3{
 	border: .05em black solid;
-    padding: 1.5em;
+    padding: .5em;
     margin: 2em;
     display: block;
     width: 50%;
     position: relative;
     left: 20%;
     text-align: center;
-	font-size: 16px;
+	font-size: .8em;
 }
 span {
-	color: blue;
+	color: red;
 }
 #smallsecond div{
 	border: .05em black solid;
-    padding: 10px;
-	display: block;
+    padding: .5em;
+	display: inline;
 	float: left;
 	position: relative;
 	top: 60%;
 }
+#watchwindow {
+
+}
 #watchdescription {
 	line-height: 2em
 	text-align: center;
-	font-size: 16px;
+	font-size: .8em;
+	display: block;
 }
 #watchimage {
 	width: 30%;
-	min-width: 500px;
-
+	min-width: 200px;
+	display: inline;
+	position: relative;
+	left:20%;
+	float: right;
 }
 #mbworld {
 	display: block;
@@ -195,6 +206,8 @@ span {
     width: 15.5%;
     position: relative;
     left: 40%;
+    text-align: center;
+	font-size: .8em;
 }
 #styleguidecarousel {
 	border: .05em black solid;
@@ -244,4 +257,55 @@ footer {
 	background-color: black
 	color: white;
 }
+@media screen and (max-width: 400px) {
+	nav {
 
+	}
+	nav a {
+		padding: .7em 2em;
+		margin-left: 2.4em;
+	}
+	header{
+    position: relative;
+    top: 2em;
+	}
+	header img{
+	position: relative;
+	left: 20.5%;
+	top: .5em;
+	}
+	header h2{
+	position: relative;
+	left: 29%;
+	top: -.25em;
+	width: 35%;
+	}
+	#productscarousel {
+		position: relative;
+		left: -1.4%;
+	}
+	#mbviewcarousel {
+		position: relative;
+		left: 1.5%;
+	}
+	#prodcutsmenu h3 {
+		position: relative;
+		left: 27.6%;
+	}
+	.collections {
+		position: relative;
+		left: 1%;
+	}
+	#watches h3 {
+		position: relative;
+		left: 40%;
+	}
+	.watchfamilies {
+		position: relative;
+		left: 1.9%;
+	}
+
+
+
+
+}
