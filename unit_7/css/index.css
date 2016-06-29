@@ -168,19 +168,26 @@ span {
 	margin: 0 auto 2em;
 }
 #watchwindow {
-
+	display: block;
 }
-#watchdescription {
+#watchwindow ul {
 	line-height: 2em
 	text-align: center;
 	font-size: .8em;
 	display: block;
 }
-#watchimage {
+#watchwindow img {
 	width: 30%;
 	min-width: 200px;
+<<<<<<< Updated upstream
 	display: block;
 	margin: auto;
+=======
+	display: inline;
+	position: relative;
+	left:3%;
+	float: right;
+>>>>>>> Stashed changes
 }
 #mbworld {
 	display: block;
@@ -192,7 +199,7 @@ span {
 	border: .05em black solid;
     padding: 10px;
     margin: 2em;
-    display: block;
+    display: inline;
     width: 15.5%;
     position: relative;
     left: 40%;
