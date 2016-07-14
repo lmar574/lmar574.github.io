@@ -30,12 +30,12 @@ nav a{
 }
 header{
 	border: .05em black solid;
-	margin: 1.5em;
-    padding: .5em;
-    position: relative;
-    top: 2em;
-    left: -3.1%;
-    width: 100%;
+	margin: 2.5em 0 1em;
+	padding: .5em;
+	/* position: relative; */
+	top: 2em;
+	/* left: -3.1%; */
+	/* width: 100%; */
 }
 header img{
 	border: .05em black solid;
@@ -133,26 +133,29 @@ header h2{
 }
 #watches {
 	border: .05em black solid;
-	padding: auto;
-	position: relative;
-	top: -3.6em;
+	padding: 2em;
+	/* position: relative; */
+	/* top: -3.6em; */
 	width: 100%;
 }
 #watches h3 {
 	border: .05em black solid;
 	padding: .5em;
-	position: relative;
-	top: 1em;
-	left: 44%;
+	/* position: relative; */
+	/* top: 1em; */
+	/* left: 44%; */
 	width: 5.5em;
+	margin: 0em auto 1em;
 }
 .watchfamilies {
 	border: .05em black solid;
-	width: 14.1%;
+	width: 19%;
+	margin: .5%;
 	min-width: 150px;
-	position: relative;
-	top: 4.5em;
-	left: 6.5%;
+	float: left;
+	/* position: relative; */
+	/* top: 4.5em; */
+	/* left: 6.5%; */
 }
 #smallsecond {
 	border: .05em black solid;
