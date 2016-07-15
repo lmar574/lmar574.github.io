@@ -15,14 +15,13 @@ nav {
 	text-decoration: none;
     position: fixed;
     top: 0;
-    z-index: 1;
     width: 100%;
 }
 nav a{
 	font-style: none;
 	font-size: .8em;
 	float: left;
-	color: black;
+	color: white;
 	padding: .7em .4em;
 	margin-left: 10.8em;
 	text-decoration: none;
@@ -35,33 +34,30 @@ label {
 	padding: .7em .4em;
 	margin-left: 10.8em;
 	text-decoration: none;
+	display: none;
+}
+#toggle {
+	display: none;
 }
 header{
 	border: .05em black solid;
 	margin: 2.5em 0 1em;
 	padding: .5em;
-	/* position: relative; */
-	top: 2em;
-	/* left: -3.1%; */
-	/* width: 100%; */
 }
 header img{
 	border: .05em black solid;
-	position: relative;
-	left: 34.5%;
-	top: .5em;
+	margin: auto;
 	width: 25%;
 	min-width: 200px;
+	display: block;
 }
 header h2{
 	border: .05em black solid;
 	color: black;
 	padding: .25em;
-	margin: .5em;
-	position: relative;
-	left: 31%;
-	top: .75em;
+	margin: auto;
 	width: 30%;
+	min-width: 254px;
 	text-align: center;
 	font-size: .8em;
 	display: block;
@@ -70,9 +66,6 @@ header h2{
 	border: .05em black solid;
 	padding: .25em;
 	margin: auto;
-	position: relative;
-	top: .39em;
-	width: 100%;
 }
 #productscarousel {
 	border: .05em black solid;
@@ -109,51 +102,47 @@ header h2{
 	height: 0;
 }
 #prodcutsmenu {
-	display: block;
-	position: relative;
-	top: -1.6em;
-	left: -3.3%;
-	margin: 2em;
 	border: .05em black solid;
+	display: block;
+	margin: auto;
     padding: .5em;
-    width: 100%;
 }
 #prodcutsmenu h3{
 	border: .05em black solid;
 	color: black;
     padding: .5em;
-    margin: 2em;
     display: block;
-    width: 9em;
-    position: relative;
-    left: 41%;
+    margin: auto;
     text-align: center;
-	font-size: .8em;
+	font-size: 1em;
+	width: 19%;
 }
-.collections {
+#families {
 	border: .05em black solid;
-    padding: .5em;
-    display: inline;
-    position: relative;
-    left: 5.5%;
+	margin: auto;
+}
+#collections {
+	border: .05em black solid;
+    float: left;
     width: 14.1%;
     min-width: 150px;
+    display: block;
+}
+h4 {
+	text-align: center;
+	font-size: .8em;
+	display: block;
 }
 #watches {
 	border: .05em black solid;
 	padding: 2em;
-	/* position: relative; */
-	/* top: -3.6em; */
 	width: 100%;
 }
 #watches h3 {
 	border: .05em black solid;
 	color: black;
 	padding: .5em;
-	/* position: relative; */
-	/* top: 1em; */
-	/* left: 44%; */
-	width: 5.5em;
+	width: 12%;
 	margin: 0em auto 1em;
 }
 .watchfamilies {
@@ -162,16 +151,11 @@ header h2{
 	margin: .5%;
 	min-width: 150px;
 	float: left;
-	/* position: relative; */
-	/* top: 4.5em; */
-	/* left: 6.5%; */
 }
 #smallsecond {
 	border: .05em black solid;
     padding: .5em;
-    position: relative;
-    top: 1em;
-    width: 100%;
+    margin: auto;
 }
 #smallsecond h3{
 	border: .05em black solid;
@@ -186,48 +170,46 @@ header h2{
 span {
 	color: red;
 }
+#smallsecond div {
+	border: .05em black solid;
+	margin: auto;
+	width: 60%;
+}
 #smallsecond ul {
 	color: black;
 	line-height: 2em
 	text-align: center;
 	font-size: .8em;
-	display: block-inline;
-	position: relative;
-	top: 9em;
-	left: 21%;
+	display: inline-block;
 }
 #smallsecond img {
 	width: 30%;
 	min-width: 200px;
-	position: relative;
-	top: -6em;
-	left: 49%;
+	float: right;
+	display: inline-block;
 }
 #mbworld {
 	display: block;
 	border: .05em black solid;
 	padding: 10px;
 	clear: both;
-	position: relative;
-	top: 1em;
-	width: 100%;
+	margin: auto;
 }
 #mbworld h3{
 	border: .05em black solid;
 	color: black;
     padding: 10px;
-    margin: 2em;
+    margin: auto;
     display: block;
     width: 15.5%;
-    position: relative;
-    left: 40%;
     text-align: center;
 	font-size: .8em;
 }
 #styleguidecarousel {
 	border: .05em black solid;
     padding: 5px;
-    display: inline-block;
+    display: block;
+    float: left;
 }
 .styleguide {
 	width: 100%;
@@ -236,20 +218,18 @@ span {
 #scoialmediahud {
 	border: .05em black solid;
     padding: 5px;
-    display: inline-block;
+    display: block;
+    float: right;
 }
 #boutiquelocator {
 	display: block;
 	border: .05em black solid;
     padding: 20px;
-    position: relative;
-	top: 1em;
-	width: 100%;
+    margin: auto;
 }
 #boutiquelocator h3 {
 	color: black;
-	position: relative;
-    left: 39%;
+	margin: auto;
 }
 #boutiquelocator ul{
 	border: .05em black solid;
@@ -263,23 +243,18 @@ span {
     padding: 5px;
     display: block;
     width: 50%;
-    position: relative;
-    left: 25%;
-    top: -6em;
+    float: right;
 }
 footer {
 	border: .05em black solid;
 	display: block;
     padding: 20px;
-    position: relative;
-    top: 1em;
-    width: 100%;
+    margin: auto;
 }
 #contactme {
 	color: white;
-	position: relative;
-	left: 44%;
-}
+	margin: auto;
+	}
 @media only screen and (max-width: 1142px) {
 	#wrapper {
 		width: auto;
@@ -291,40 +266,9 @@ footer {
 		float: left;
 		display: inline;
 	}
-	header img {
-		position: relative;
-		left: 37.5%;
-	}
-	header h2 {
-		position: relative;
-		left: 36.7%;
-		width: 25%;
-	}
-	#productscarousel {
-    	position: relative;
-    	left: 2.6%;
-	}
-	#productscarousel img {
-
-	}
-	#mbviewcarousel {
-    	position: relative;
-    	left: -3.3%;
-	}
-	#prodcutsmenu h3 {
-   		position: relative;
-    	left: 36.6%;
-    	width: 19%;
-	}
-	.collections {
-    	position: relative;
-    	left: 6%;
-	}
 	#watches h3 {
     	display: block;
     	width: 12%;
-    	position: relative;
-    	left: 43%;
 	}
 	.watchfamilies {
     	position: relative;
@@ -376,15 +320,6 @@ footer {
 	nav a {
 		margin-left: 3.4%;
 		margin-right: 3.4%;
-	}
-	header {
-		position: relative;
-		left: -3.8%;
-	}
-	header h2 {
-    	position: relative;
-    	left: 32.7%;
-    	width: 37%;
 	}
 	#prodcutsmenu {
     	position: relative;
@@ -482,15 +417,6 @@ footer {
     	position: relative;
     	left: -5.3%;
 	}
-	header img {
-    	position: relative;
-    	left: 33.5%;
-	}
-	header h2 {
-    	position: relative;
-    	left: 25.7%;
-    	width: 55%;
-	}
 	#productscarousel {								
     	position: relative;
     	left: 20%;
@@ -534,6 +460,7 @@ footer {
 		text-decoration: none;
     	position: static;
     	width: 100%;
+    	display: none;
 	}
 	nav a {
 		padding: 0em .6em;
@@ -542,22 +469,11 @@ footer {
 		float: none;
 		display: block;
 	}
-	header{
-    	position: relative;
-    	top: 2em;
-    	left: -6%;
-    	width: 100%;
+	label {
+		display: block;
 	}
-	header img{
-		position: relative;
-		left: 28.5%;
-		top: .3em;
-	}
-	header h2{
-		position: relative;
-		left: 12%;
-		top: .1em;
-		width: 75%;
+	#toggle:checked + nav {
+		display: block;
 	}
 	#summit {
 		position: relative;
