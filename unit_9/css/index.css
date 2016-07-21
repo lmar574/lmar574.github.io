@@ -3,8 +3,10 @@
 body {
 	background-color: black;
 	font-family: 'Montserrat';
-	font-size: 20px;
 	max-width: 1250px;
+}
+#wrapper {
+	width: 1250px;
 }
 nav {
 	background-color: black;
@@ -14,14 +16,16 @@ nav {
     top: 0;
     width: 100%;
 }
-nav a{
+nav a {
     font-style: none;
-    font-size: 1.1em;
+    font-size: 1.3em;
     float: left;
     color: white;
-    padding: .7em .4em;
-    margin: auto 7em auto 7em;
+    margin: auto 7% auto 7%;
+    padding: 1%;
     text-decoration: none;
+    width: 10%;
+    text-align: center;
 }
 label {
 	font-style: none;
@@ -44,7 +48,7 @@ header {
 }
 header img{
 	/*border: .05em black solid;*/
-	margin: auto;
+	margin: 2% auto auto auto;
 	width: 25%;
 	min-width: 200px;
 	display: block;
@@ -66,7 +70,7 @@ header h2 {
 	padding: .25em;
 	margin: auto;
 }
-.panel-heading {
+#productscarousel {
 	border: .05em black solid;
 	padding: .25em;
 	float: left;
@@ -74,20 +78,20 @@ header h2 {
 	min-width: 350px;
 	overflow: hidden;
 }
-#productsimage {
+#productscarousel img {
 	width: 100%;
 	min-width: 350px;
 	max-width: 515px
 }
-/*#mbviewcarousel {
+#mbviewcarousel {
 	border: .05em black solid;
 	padding: .25em;
 	float: right;
 	width: 47%;
 	min-width: 350px;
 	overflow: hidden;
-}*/
-#mbcontentimage {
+}
+#mbviewcarousel img {
 	width: 100%;
 	min-width: 350px;
 	max-width: 515px;
@@ -156,6 +160,7 @@ h4 {
 	margin: auto;
 	width: 100%;
 	min-width: 150px;
+	max-width: 207px;
 }
 #smallsecond {
 	/*border: .05em black solid;*/
@@ -195,10 +200,6 @@ span {
 	float: right;
 	display: inline-block;
 }
-.panel-title {
-	border: .05em black solid;
-	width: 100%;
-}
 #mbworld {
 	/*border: .05em black solid;*/
 	padding: 10px;
@@ -211,9 +212,9 @@ span {
     padding: 10px;
     margin: auto;
     display: block;
-    width: 23.5%;
+    width: 15.5%;
     text-align: center;
-	font-size: 2em;
+	font-size: .8em;
 }
 #styleguidecarousel {
 	/*border: .05em black solid;*/
@@ -269,3 +270,59 @@ footer {
 	margin: auto;
 	text-align: center;
 	}
+@media only screen and (max-width: 1219px) {
+	nav a {
+    	margin: auto 5.5% auto 5.5%;
+    	width: 14%;
+    }
+}
+@media only screen and (max-width: 1173px) {
+	#wrapper {
+		width: 1173px;
+	}
+	nav a {
+    	margin: auto 4.5% auto 4.5%;
+    	width: 16%;
+    }
+}
+@media only screen and (max-width: 1006px) {
+	#wrapper {
+		width: 1006px;
+	}
+	nav a {
+    	margin: auto 3.5% auto 3.5%;
+    	width: 18%;
+}
+@media only screen and (max-width: 939px) {
+	#wrapper {
+		width: 939px;
+	}
+	nav a {
+    	margin: auto 2.5% auto 2.5%;
+    	width: 20%;
+}
+@media only screen and (max-width: 782px) {
+	#wrapper {
+		width: 782px;
+	}
+	nav {
+		background-color: black;
+		list-style-type: none;
+		text-decoration: none;
+    	position: static;
+    	width: 100%;
+    	display: none;
+	}
+	nav a {
+		float: none;
+		display: block;
+		margin: auto 17.6em auto 17.6em;
+    	width: 21%;
+	}
+	label {
+		display: block;
+	}
+	#toggle:checked + nav {
+		display: block;
+	}
+}
